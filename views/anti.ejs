@@ -1,0 +1,37 @@
+<%- include('partials/header.ejs') %>
+        <nav class="navbar">
+            <ul>
+                <li><a class="mainText" href="/">Home</a></li>
+                <li><a class="mainText" href="/types">Types of Viruses</a></li> <!--https://hightouchtechnologies.com/9-common-types-of-computer-viruses/-->
+                <li><a class="mainText" href="/history">History of Viruses</a></li> <!--https://usa.kaspersky.com/resource-center/threats/a-brief-history-of-computer-viruses-and-what-the-future-holds-->
+                <li><a class="mainText selected_nav" href="/anti">Anti-Virus Softwares</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>Viruses</h1>
+        </header>
+
+        <!-- This is the footer -->
+        <!-- The footer goes inside the body but not always -->
+        <br />
+        
+        <main>
+            <h1 class="mainText">Anti-Virus Procedures</h1>
+            <div class="mainText anti_text">
+                <p>There are plenty of Anti-Virus softwares around the internet. Many fall flat on their face when it comes to protecting devices. Some do more harm than good, such as
+                slowing down your computer. Maybe some are even fake and are actual viruses in disguise. Here are some pieces of software that have been recognized as legitimate
+                when it comes to taking care of viruses and other harmful programs. The built-in Windows Defender is good enough to protect your system
+                from most viruses. Malwarebytes is also a good and free software that is recommended.</p>
+                <figure>
+                    <img src="img/scanning.png" alt="Malware UI">
+                </figure>
+                <p id="videos">
+                    Here is a video on Malwarebytes: 
+                    <br/>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/20MIZKwOqIo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </p>
+                
+                <p>For information found on this page, click on the link for the source and more information: <a href="https://www.howtogeek.com/225385/what%E2%80%99s-the-best-antivirus-for-windows-10-is-windows-defender-good-enough/">Click Here</a></p>
+            </div>
+        </main>
+<%- include('partials/footer.ejs') %>

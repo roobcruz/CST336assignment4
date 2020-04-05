@@ -1,0 +1,122 @@
+body{
+    /*background-color: yellow;*/
+    background-color: white;
+    background-image: url(../img/computervirus.jpeg);
+}
+
+header, main, nav, footer {
+    /*background-color: white;*/
+    text-align: center;
+}
+
+blockquote {
+    background-color:black;
+}
+
+blockquote a{
+    color:red;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+    margin-left: 500px;
+}
+
+.navbar li{
+    float:left;
+}
+
+.navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    /*position: fixed;*/
+    border: 3px green;
+    color: yellow;
+    font-size: 2em;
+    transition: 0.9s;
+}
+
+.selected_nav{
+    font-weight: bold;
+}
+
+header {
+    color:white;
+}
+
+.mainText {
+    background-color: gray;
+    color:white;
+}
+
+.mainText b{
+    color:lime;
+}
+
+.mainfooter {
+    color:white;
+}
+
+.dropdown{
+    color:white;
+    background-color: gray;
+    position:relative;
+    display:inline-block;
+    font-size: 2em;
+}
+
+.dropdown:hover{
+    color: red;
+}
+
+.dropdown-content{
+    display:none;
+    position: absolute;
+    background-color: #f9f9f9;
+    color:black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 15px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#types_of_viruses {
+    font-size: 30px;
+}
+
+.hist_text{
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.anti_text{
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: center;
+}
+
+#videos{
+    font-size:40px;
+}
+
+main p a{
+    color:red;
+}
+
+iframe {
+    border:none;
+}

@@ -1,0 +1,52 @@
+<%- include('partials/header.ejs') %>
+<nav class="navbar">
+            <ul>
+                <li><a class="mainText selected_nav" href="/">Home</a></li>
+                <li><a class="mainText" href="/types">Types of Viruses</a></li> <!--https://hightouchtechnologies.com/9-common-types-of-computer-viruses/-->
+                <li><a class="mainText" href="/history">History of Viruses</a></li> <!--https://usa.kaspersky.com/resource-center/threats/a-brief-history-of-computer-viruses-and-what-the-future-holds-->
+                <li><a class="mainText" href="/anti">Anti-Virus Softwares</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>Viruses</h1>
+        </header>
+        <!-- This is the footer -->
+        <!-- The footer goes inside the body but not always -->
+        <br />
+        
+        <br />
+        
+        <main>
+            <figure id="me">
+                <img src="img/biohazard.png" alt="Danger!"/>
+            </figure>
+            <!--
+            <audio autoplay loop>
+                <source src = "audio/congratulations-you-won.mp3" type="audio/mp3">
+            </audio> -->
+            <div class="mainText">
+                <h1>Viruses</h1> <br/>
+                <p> Did you hear that audio clip that played when you opened the page? It's from a pop up ad that will trick you into downloading a virus. <br/> 
+                I don't mean biological viruses that can cause millions of deaths. I'm talking about something more virtual. Computer Viruses.<br/>
+                But what exactly are computer viruses? Well, they are like their biological counterparts. They can cause major damage to your computer and other computers. According to Norton, <br/>
+                they cannot spread and be run without opening or running a file or a document. The computer virus 
+                <blockquote>"operates by inserting or attaching <br/>
+                itself to a legitimate program or document that supports macros in order to execute its <a href="https://us.norton.com/internetsecurity-malware-what-is-a-computer-virus.html">code</a>."
+                </blockquote>
+                
+                <br/>
+                Viruses can lie dormant until certain conditions are met, such as the program with the virus is run.<br/> 
+                Click on the items in the navigation bar at the top of the page to see some types of viruses, a brief history on the virus, and some Anti-virus software.
+                
+                
+                <!-- blockquote -->
+                <br/>
+                
+                <p><em><strong>Source: <a href="https://us.norton.com/internetsecurity-malware-what-is-a-computer-virus.html"> Norton Article </a></strong></em></p>
+                <h4>Here is a dilbert comic of the day!</h4>
+                Link: <%=image%>
+                
+            </div>
+                
+        </main>
+<%- include('partials/footer.ejs') %>

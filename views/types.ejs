@@ -1,0 +1,59 @@
+<%- include('partials/header.ejs') %>
+    <nav class="navbar">
+            <ul>
+                <li><a class="mainText" href="/">Home</a></li>
+                <li><a class="mainText selected_nav" href="/types">Types of Viruses</a></li> <!--https://hightouchtechnologies.com/9-common-types-of-computer-viruses/-->
+                <li><a class="mainText" href="/history">History of Viruses</a></li> <!--https://usa.kaspersky.com/resource-center/threats/a-brief-history-of-computer-viruses-and-what-the-future-holds-->
+                <li><a class="mainText" href="/anti">Anti-Virus Softwares</a></li>
+            </ul>
+        </nav>
+        <header>
+                <h1>Viruses</h1>
+        </header>
+        
+        
+        <main>
+            <div>
+                <h1 class="mainText">Types of Viruses</h1>
+                <figure>
+                    <img src="img/laptop_virus.jpg" alt="A sick computer!">
+                </figure>
+                <div class="mainText">
+                    <br/> <p id="types_of_viruses">There are many types of viruses. But here are a couple of types of viruses to get you started: </p><br/>
+                </div>
+                
+                <div class="dropdown">
+                    <span>Resident Virus</span>
+                    <div class="dropdown-content">
+                        <p> This virus is usually found in the RAM (Random Access Memory). It messes with the OS and can even mess with the Anti-Virus Software</p>
+                    </div>
+                </div>
+                <br/><br/>
+                <div class="dropdown">
+                    <span>Browser Hijacker</span>
+                    <div class="dropdown-content">
+                        <p> This kind of virus is easily explainable based off of the name alone. It directs the user to malicious websites and other malware ridden
+                        destinations. It's usually detectable.</p>
+                    </div>
+                </div>
+                <br/><br/>
+                <div class="dropdown">
+                    <span>Multipartite</span>
+                    <div class="dropdown-content">
+                        <p>Mulitpartite Virus is one of the more dangerous ones. It infects the entire system through the use of unauthorized actions on the computer's
+                        system.</p>
+                    </div>
+                </div>
+                <br/><br/>
+                <div class="dropdown">
+                    <span>Direct Action</span>
+                    <div class="dropdown-content">
+                        <p>Direct Action viruses are the most common viruses. They are usually attached to an executable. People who are not usually aware of what is
+                        a credible or trustworthy program often download executables without known origins and it's usually a virus.</p>
+                    </div>
+                </div>
+                <p class="mainText">There are more types of viruses than just the ones listed. Basic information of the types of viruses were found 
+                <a href="https://hightouchtechnologies.com/9-common-types-of-computer-viruses/">here</a></p>
+            </div>
+        </main>
+<%- include('partials/footer.ejs') %>

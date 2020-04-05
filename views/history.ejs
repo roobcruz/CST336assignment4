@@ -1,0 +1,49 @@
+<%- include('partials/header.ejs') %>
+<nav class="navbar">
+            <ul>
+                <li><a class="mainText" href="/">Home</a></li>
+                <li><a class="mainText" href="/types">Types of Viruses</a></li> <!--https://hightouchtechnologies.com/9-common-types-of-computer-viruses/-->
+                <li><a class="mainText selected_nav" href="/history">History of Viruses</a></li> <!--https://usa.kaspersky.com/resource-center/threats/a-brief-history-of-computer-viruses-and-what-the-future-holds-->
+                <li><a class="mainText" href="/anti">Anti-Virus Softwares</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>Viruses</h1>
+        </header>
+        <main>
+            <h1 class="mainText">A Brief History of the Computer Virus!</h1>
+            <figure>
+                <img class="" src="img/creeper_program.jpg" alt="The text that the creeper program displays">
+            </figure>
+            <br/>
+            <div class="mainText hist_text">
+                <p>Computer viruses have a long history and has existed for almost as long as the internet has. The first <b>"virus"</b> is usually accepted as the <b>"Creeper Program"</b>.
+                It didn't do anything malicious except replicate, take up space on the hardware, and nestle itself on computers in a network and print out a statement saying <b>"I'm the creeper: catch me if you can"</b>. 
+                The Creeper Program was created by a man named <b>"Ray Tomlinson</b>. Ray created another program called <b>"Reaper"</b> which deleted instances of the Creeper Program
+                in computers.</p>
+                
+                <p>
+                    The first <i>widespread</i> virus was called <b>"The Morris"</b>. Written by Cornelle University graduate student <b>"Robert Morris"</b> in 1988, he intented to
+                    use it to determine the size of the internet at the time. His method of determining the size of the internet was through sendmail, weak passwords, and other Unix applications.
+                    However, it started spreading too fast and it started affecting computers the operations of normal computers. In 15 hours, it was able to infect 15,000 computers.
+                </p>
+                
+                <p>
+                    From the 90s to the 2000s, there have been many viruses have been created and spread across different networks that it is very hard to keep track of all of them.
+                    Here are brief descriptions of three other well-known viruses:
+                </p>
+                
+                <ul>
+                    <li><b>Michaelangelo</b>: It was first found in Australia of 1991. It was designed to overwrite the first hundred sectors on storage devices with 
+                    zeroes and prevented computers from booting up. It infected 20,000 computers. </li>
+                    <li><b>iloveyou</b>: This virus was created in the Philippines in 2000. It's primary function was to overwrite Office, audio, and image files. 
+                    It was able to infect 50 million computers in 10 days and it spread through emails.</li>
+                    <li><b>Anna Kournikova</b>: Not the Tennis player but a picture of said Tennis player. In 2001, this virus finds itself in the victim's email and tricks them
+                    into opening the email for a picture of the Anna Kournikova. However, it doesn't display a picture of her, but goes into the victim's inbox and sends itself
+                     to every contact in the victim's contact book. </li>
+                </ul>
+                
+                <p>All information on this page was found <a href="https://content.sentrian.com.au/blog/a-short-history-of-computer-viruses">here</a>.</p>
+            </div>
+        </main>
+<%- include('partials/footer.ejs') %>
